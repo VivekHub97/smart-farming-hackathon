@@ -1,0 +1,630 @@
+{
+  "assetAdministrationShells": [
+    {
+      "idShort": "farmAlpha",
+      "id": "https://example.com/ids/sm/4585_6120_2142_6364",
+      "assetInformation": {
+        "assetKind": "NotApplicable",
+        "globalAssetId": "https://example.com/ids/asset/4141_5120_2142_5567"
+      },
+      "submodels": [
+        {
+          "type": "ModelReference",
+          "keys": [
+            {
+              "type": "Submodel",
+              "value": "https://example.com/ids/sm/7051_5120_2142_1935"
+            }
+          ]
+        },
+        {
+          "type": "ModelReference",
+          "keys": [
+            {
+              "type": "Submodel",
+              "value": "https://example.com/ids/sm/3104_5120_2142_6789"
+            }
+          ]
+        },
+        {
+          "type": "ModelReference",
+          "keys": [
+            {
+              "type": "Submodel",
+              "value": "https://example.com/ids/sm/4585_6120_2142_3994"
+            }
+          ]
+        }
+      ],
+      "modelType": "AssetAdministrationShell"
+    }
+  ],
+  "submodels": [
+    {
+      "idShort": "GeneralInformation",
+      "id": "https://example.com/ids/sm/7051_5120_2142_1935",
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "idShort": "clientId",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Client ID"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "3c46c900-e252-459c-ac7b-327ebae929bc",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "clientName",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Client Name"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "Kaichgauer G\u00FCterverw",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "farmId",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Farm ID"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "53cc4522-8b01-405a-bb8a-56796df40ff0",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "farmName",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Farm Name"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "Kraichgauer G\u00FCterver",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "FieldId",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Field Id"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "b3476590-c280-48bf-bea6-7f04dd7f539e",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "FieldName",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Field Name"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "H\u00FChnerberg",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "FieldOperationId",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Field Operation Id"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "5a0835e2-54d1-4d85-a865-6f0d6ac99c94",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Operation",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Operation"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "Harvest",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "cropSeason",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Crop Season"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "2024",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "cropId",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Crop ID"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "44",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "CropToken",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Crop Token"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "WHEAT_EURO_WTR",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "cropName",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Crop Name"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "Wheat (Europe Winter)",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "OrgId",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Org Id"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "22718",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Work",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Work"
+            }
+          ],
+          "value": [
+            {
+              "idShort": "WorkPlanId",
+              "displayName": [
+                {
+                  "language": "en",
+                  "text": "Work Plan Id"
+                }
+              ],
+              "valueType": "xs:string",
+              "value": "00000000-0000-0000-0000-000000000000",
+              "modelType": "Property"
+            },
+            {
+              "idShort": "WorkOrder",
+              "displayName": [
+                {
+                  "language": "en",
+                  "text": "Work Order"
+                }
+              ],
+              "valueType": "xs:string",
+              "modelType": "Property"
+            }
+          ],
+          "modelType": "SubmodelElementCollection"
+        }
+      ],
+      "modelType": "Submodel"
+    },
+    {
+      "idShort": "DataAttributes",
+      "displayName": [
+        {
+          "language": "en",
+          "text": "Data Attributes"
+        }
+      ],
+      "id": "https://example.com/ids/sm/3104_5120_2142_6789",
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "idShort": "distance",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "DISTANCE"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Distance Travelled From Previous Point"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "swathwidth",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "SWATHWIDTH"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Width Of Element"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "vryieldmas",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "VRYIELDMAS"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Yield as Mass"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "sectionId",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "SECTIONID"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Element Id"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Crop",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Crop"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "CropId"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "WetMass",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "WetMass"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Wet Mass"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Moisture",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Moisture"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Moisture"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Time",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Time"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Time Stamp"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Heading",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Heading"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Machine Heading"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Variety",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "VARIETY"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Variety Name"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "StrchPrcnt",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Starch Percentage"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Starch Percentage"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "CrdPrPrcnt",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Crude Protein Percentage"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Crude Protein Percentage"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Elevation",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Elevation"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Elevation"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "IsoTime",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "IsoTime"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Precise Timestamp"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Machine",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Machine"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Index into the MachineUsage map, or 0 if no information exists"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "Fuel",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "FUEL"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Fuel"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "VehicleSpeed",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "VEHICLSPEED"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Vehicle Speed"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "DryMatter",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "DRYMATTER"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Dry Matter"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "ProductUseHash",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "PRODUCTHASH"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Product Use Hash"
+            }
+          ],
+          "valueType": "xs:string",
+          "modelType": "Property"
+        }
+      ],
+      "modelType": "Submodel"
+    },
+    {
+      "idShort": "Product",
+      "displayName": [
+        {
+          "language": "en",
+          "text": "Product"
+        }
+      ],
+      "id": "https://example.com/ids/sm/4585_6120_2142_3994",
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "idShort": "ProductId",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Product Id"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "c69b9aed-4db2-4eab-8044-8eaff0c67fc8",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "ProductName",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Product Name"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "Opal",
+          "modelType": "Property"
+        },
+        {
+          "idShort": "ProductUseHash",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "Product Use Hash"
+            }
+          ],
+          "valueType": "xs:string",
+          "value": "ddaad4ab",
+          "modelType": "Property"
+        }
+      ],
+      "modelType": "Submodel"
+    }
+  ]
+}

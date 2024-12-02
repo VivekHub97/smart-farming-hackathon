@@ -1,0 +1,136 @@
+{
+  "Version": "1.0",
+  "OrgId": 22718,
+  "ClientId": "3c46c900-e252-459c-ac7b-327ebae929bc",
+  "ClientName": "Kaichgauer Güterverw",
+  "FarmId": "53cc4522-8b01-405a-bb8a-56796df40ff0",
+  "FarmName": "Kraichgauer Güterver",
+  "FieldId": "b3476590-c280-48bf-bea6-7f04dd7f539e",
+  "FieldName": "Hühnerberg",
+  "FieldOperationId": "5a0835e2-54d1-4d85-a865-6f0d6ac99c94",
+  "Operation": "Harvest",
+  "CropSeason": 2024,
+  "CropId": 44,
+  "CropToken": "WHEAT_EURO_WTR",
+  "CropName": "Wheat (Europe Winter)",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductId": "c69b9aed-4db2-4eab-8044-8eaff0c67fc8",
+    "ProductName": "Opal",
+    "BrandName": "---",
+    "TankMix": false,
+    "ProductUseHash": "ddaad4ab"
+  },
+  "FieldOperationStartDate": "2024-07-25T07:58:16.009Z",
+  "FileCreatedTimeStamp": "2024-11-27T20:08:55.6988231Z",
+  "DataAttributes": [
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "VRYIELDMAS",
+      "Unit": "t1ha-1",
+      "Description": "Yield as Mass"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "Crop",
+      "Description": "CropId"
+    },
+    {
+      "Name": "WetMass",
+      "Unit": "t1ha-1",
+      "Description": "Wet Mass"
+    },
+    {
+      "Name": "Moisture",
+      "Unit": "prcnt",
+      "Description": "Moisture"
+    },
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "VARIETY",
+      "Description": "Variety Name"
+    },
+    {
+      "Name": "StrchPrcnt",
+      "Unit": "prcnt",
+      "Description": "Starch Percentage"
+    },
+    {
+      "Name": "CrdPrPrcnt",
+      "Unit": "prcnt",
+      "Description": "Crude Protein Percentage"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    },
+    {
+      "Name": "DRYMATTER",
+      "Unit": "prcnt",
+      "Description": "Dry Matter"
+    },
+    {
+      "Name": "PRODUCTHASH",
+      "Description": "ProductUseHash"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "4c455cb2-584c-5ad7-8d27-0c3bf3b72fd9",
+      "MachineSerial": "1Z0S790TCPU136007",
+      "OperatorId": "f346c665-9347-4f03-a04d-4faffb5795ba",
+      "OperatorName": "Jonas Pfeil"
+    }
+  },
+  "Implements": [],
+  "Products": [
+    {
+      "ProductId": "c69b9aed-4db2-4eab-8044-8eaff0c67fc8",
+      "ProductName": "Opal",
+      "BrandName": "---",
+      "TankMix": false,
+      "ProductUseHash": "ddaad4ab"
+    }
+  ]
+}
