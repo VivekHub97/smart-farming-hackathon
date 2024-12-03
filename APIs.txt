@@ -1,56 +1,56 @@
 FertilizerAAS
 
 Kalkammonsalpeter
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNDQ2NF8xMjIwXzIxNDJfNDQ4Mg==/submodel-elements/amount/$value
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNDQ2NF8xMjIwXzIxNDJfNDQ4Mg==/submodel-elements/carbonEmission/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNDQ2NF8xMjIwXzIxNDJfNDQ4Mg==/submodel-elements/amount/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNDQ2NF8xMjIwXzIxNDJfNDQ4Mg==/submodel-elements/carbonEmission/$value
 
 Harnstoff
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMTIwNV8xMjIwXzIxNDJfNzAzMw==/submodel-elements/amount/$value
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMTIwNV8xMjIwXzIxNDJfNzAzMw==/submodel-elements/carbonEmission/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMTIwNV8xMjIwXzIxNDJfNzAzMw==/submodel-elements/amount/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMTIwNV8xMjIwXzIxNDJfNzAzMw==/submodel-elements/carbonEmission/$value
 
 Ammoniumsulfatsalpeter
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMjEzNV8xMjIwXzIxNDJfMjI5OQ==/submodel-elements/amount/$value
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMjEzNV8xMjIwXzIxNDJfMjI5OQ==/submodel-elements/carbonEmission/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMjEzNV8xMjIwXzIxNDJfMjI5OQ==/submodel-elements/amount/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMjEzNV8xMjIwXzIxNDJfMjI5OQ==/submodel-elements/carbonEmission/$value
 
 Diammonphosphat
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNzI3NV8xMjIwXzIxNDJfOTMyNQ==/submodel-elements/amount/$value
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNzI3NV8xMjIwXzIxNDJfOTMyNQ==/submodel-elements/carbonEmission/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNzI3NV8xMjIwXzIxNDJfOTMyNQ==/submodel-elements/amount/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNzI3NV8xMjIwXzIxNDJfOTMyNQ==/submodel-elements/carbonEmission/$value
 
 Gülle
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMTExMF8yMjIwXzIxNDJfODI4NQ==/submodel-elements/amount/$value
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMTExMF8yMjIwXzIxNDJfODI4NQ==/submodel-elements/carbonEmission/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMTExMF8yMjIwXzIxNDJfODI4NQ==/submodel-elements/amount/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMTExMF8yMjIwXzIxNDJfODI4NQ==/submodel-elements/carbonEmission/$value
 
 
 FuelAAS
 
 dataAttributes
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMzQ2M18yMjIwXzIxNDJfNTcwMA==/submodel-elements/amount/$value
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMzQ2M18yMjIwXzIxNDJfNTcwMA==/submodel-elements/carbonEmission/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMzQ2M18yMjIwXzIxNDJfNTcwMA==/submodel-elements/amount/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMzQ2M18yMjIwXzIxNDJfNTcwMA==/submodel-elements/carbonEmission/$value
 
 YieldAAS
 
 dataAttributes
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMzA3Ml8yMjIwXzIxNDJfOTgxNw==/submodel-elements/yieldMass/$value
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMzA3Ml8yMjIwXzIxNDJfOTgxNw==/submodel-elements/dryMatter/$value
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMzA3Ml8yMjIwXzIxNDJfOTgxNw==/submodel-elements/carbonEmission/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMzA3Ml8yMjIwXzIxNDJfOTgxNw==/submodel-elements/yieldMass/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMzA3Ml8yMjIwXzIxNDJfOTgxNw==/submodel-elements/dryMatter/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMzA3Ml8yMjIwXzIxNDJfOTgxNw==/submodel-elements/carbonEmission/$value
 
 CropProtection
 
 GeneralPesticides
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNDMxNF8xMDMwXzIxNDJfNDA0OA==/submodel-elements/amount/$value
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNDMxNF8xMDMwXzIxNDJfNDA0OA==/submodel-elements/carbonEmission/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNDMxNF8xMDMwXzIxNDJfNDA0OA==/submodel-elements/amount/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNDMxNF8xMDMwXzIxNDJfNDA0OA==/submodel-elements/carbonEmission/$value
 
 Fungicides
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMTEzNF8xMDMwXzIxNDJfNTk2NQ==/submodel-elements/amount/$value
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMTEzNF8xMDMwXzIxNDJfNTk2NQ==/submodel-elements/carbonEmission/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMTEzNF8xMDMwXzIxNDJfNTk2NQ==/submodel-elements/amount/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMTEzNF8xMDMwXzIxNDJfNTk2NQ==/submodel-elements/carbonEmission/$value
 
 Herbicides
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMzMzNF8xMDMwXzIxNDJfMzQxMQ==/submodel-elements/amount/$value
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMzMzNF8xMDMwXzIxNDJfMzQxMQ==/submodel-elements/carbonEmission/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMzMzNF8xMDMwXzIxNDJfMzQxMQ==/submodel-elements/amount/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vMzMzNF8xMDMwXzIxNDJfMzQxMQ==/submodel-elements/carbonEmission/$value
 
 Insecticides
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNzUzNF8xMDMwXzIxNDJfMTg2OA==/submodel-elements/amount/$value
-http://localhost:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNzUzNF8xMDMwXzIxNDJfMTg2OA==/submodel-elements/carbonEmission/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNzUzNF8xMDMwXzIxNDJfMTg2OA==/submodel-elements/amount/$value
+http://192.168.0.178:8081/submodels/aHR0cHM6Ly9leGFtcGxlLmNvbS9pZHMvc20vNzUzNF8xMDMwXzIxNDJfMTg2OA==/submodel-elements/carbonEmission/$value
 
 
 
