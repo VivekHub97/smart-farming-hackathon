@@ -1,12 +1,12 @@
 
 import create_visualisation_map as cv
-import new_dash as my_dash
+from globals import map_list, add_map
 def populate():
     # File paths
     fertilizer_path = "/home/abhinkop/ssd2/repos/SmartFarmingHackathon/Getreide/Farm1_Jennewein/Jennewein Anwendung24/doc/"
     harvest_path = "/home/abhinkop/ssd2/repos/SmartFarmingHackathon/Getreide/Farm1_Jennewein/Jennewein Ernte24/doc/"
 
-# Create the maps
+# Create the maps   
     map1 = cv.create_visualisation_map(
     columnName="AppliedRate",
     shapefile_path= fertilizer_path + "Klostermühle_EJ_EJ 0080-0 Un_Application_2024-03-06_00.shp",
@@ -19,8 +19,5 @@ def populate():
     title="VRYIELDMAS"
 )
     
-    # my_dash.add_map(map1)
-    # my_dash.add_map(map2)
-
-    my_dash.map_list.append(map1)
-    my_dash.map_list.append(map2)
+    add_map(map1)
+    add_map(map2)
