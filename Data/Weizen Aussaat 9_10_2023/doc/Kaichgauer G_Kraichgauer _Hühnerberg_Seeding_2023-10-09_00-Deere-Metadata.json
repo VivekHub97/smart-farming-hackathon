@@ -1,0 +1,127 @@
+{
+  "Version": "1.0",
+  "OrgId": 22718,
+  "ClientId": "3c46c900-e252-459c-ac7b-327ebae929bc",
+  "ClientName": "Kaichgauer Güterverw",
+  "FarmId": "53cc4522-8b01-405a-bb8a-56796df40ff0",
+  "FarmName": "Kraichgauer Güterver",
+  "FieldId": "b3476590-c280-48bf-bea6-7f04dd7f539e",
+  "FieldName": "Hühnerberg",
+  "FieldOperationId": "88c72327-b634-4687-95a4-cfe1193f7da1",
+  "Operation": "Seeding",
+  "CropSeason": 2023,
+  "CropId": 44,
+  "CropToken": "WHEAT_EURO_WTR",
+  "CropName": "Wheat (Europe Winter)",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductId": "3f90fdae-58d6-402c-bada-fb4d36942544",
+    "ProductName": "OPAL",
+    "BrandName": "---",
+    "TankMix": false,
+    "ProductUseHash": "ddaad4ab"
+  },
+  "FieldOperationStartDate": "2023-10-09T12:10:22.311Z",
+  "FileCreatedTimeStamp": "2024-11-27T19:32:28.1026735Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Crop",
+      "Description": "CropId"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "kg1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "kg1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "kg1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Variety",
+      "Description": "Variety Name"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    },
+    {
+      "Name": "PRODUCTHASH",
+      "Description": "ProductUseHash"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "94e3ec53-1ee3-b4bc-0c5b-b66e6d03218d",
+      "MachineName": "7330R",
+      "MachineSerial": "1RW7330SLLD110677",
+      "OperatorId": "00000000-0000-0000-0000-000000000000",
+      "OperatorName": ""
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "a91b3c86-a5df-a177-9fac-9a7191254e39",
+      "ImplementSerialNumber": "3019354906 E09062"
+    }
+  ],
+  "Products": [
+    {
+      "ProductId": "3f90fdae-58d6-402c-bada-fb4d36942544",
+      "ProductName": "OPAL",
+      "BrandName": "---",
+      "TankMix": false,
+      "ProductUseHash": "ddaad4ab"
+    }
+  ]
+}

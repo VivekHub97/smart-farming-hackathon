@@ -1,0 +1,185 @@
+{
+  "Version": "1.0",
+  "OrgId": 22718,
+  "ClientId": "3c46c900-e252-459c-ac7b-327ebae929bc",
+  "ClientName": "Kaichgauer Güterverw",
+  "FarmId": "53cc4522-8b01-405a-bb8a-56796df40ff0",
+  "FarmName": "Kraichgauer Güterver",
+  "FieldId": "b3476590-c280-48bf-bea6-7f04dd7f539e",
+  "FieldName": "Hühnerberg",
+  "FieldOperationId": "42309758-a21b-4584-ae47-f4925421b946",
+  "Operation": "Application",
+  "CropSeason": 2023,
+  "CropToken": "",
+  "CropName": "",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductId": "42df41b6-6be5-4afa-bc25-7371de179570",
+    "ProductName": "Mertil + Herbosol",
+    "TankMix": true,
+    "Rate": {
+      "Value": 200.0,
+      "Unit": "l1ha-1"
+    },
+    "ProductUseHash": "d0c5b9e118685337598e28e7b42f3892",
+    "Components": [
+      {
+        "Carrier": false,
+        "Name": "Mertil",
+        "Rate": {
+          "Value": 0.6000000238418579,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": false,
+        "Name": "Herbosol",
+        "Rate": {
+          "Value": 0.4000000059604645,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": true,
+        "Name": "Wasser",
+        "Rate": {
+          "Value": 199.0,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      }
+    ]
+  },
+  "FieldOperationStartDate": "2023-10-30T11:41:34.679Z",
+  "FileCreatedTimeStamp": "2024-11-27T19:33:41.0005978Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "Product",
+      "Description": "Product Name"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "l1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "l1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "l1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    },
+    {
+      "Name": "PRODUCTHASH",
+      "Description": "ProductUseHash"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "69750a18-e479-fbe3-e897-528b941a5b52",
+      "MachineSerial": "",
+      "OperatorId": "677484cf-d599-4ac6-9500-52d7428c36ac",
+      "OperatorName": "Daniel Wirth"
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "42dff1ad-5347-fb46-5dde-49bf7795aba8",
+      "ImplementSerialNumber": "210000011848"
+    }
+  ],
+  "Products": [
+    {
+      "ProductId": "42df41b6-6be5-4afa-bc25-7371de179570",
+      "ProductName": "Mertil + Herbosol",
+      "TankMix": true,
+      "Rate": {
+        "Value": 200.0,
+        "Unit": "l1ha-1"
+      },
+      "ProductUseHash": "d0c5b9e118685337598e28e7b42f3892",
+      "Components": [
+        {
+          "Carrier": false,
+          "Name": "Mertil",
+          "Rate": {
+            "Value": 0.6000000238418579,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Herbosol",
+          "Rate": {
+            "Value": 0.4000000059604645,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": true,
+          "Name": "Wasser",
+          "Rate": {
+            "Value": 199.0,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        }
+      ]
+    }
+  ]
+}
