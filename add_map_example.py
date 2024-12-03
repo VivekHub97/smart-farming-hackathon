@@ -59,3 +59,11 @@ def populate_new():
 
     add_fertiliser_plots(fertilizer_path)
     add_harvest_plots(harvest_path)
+
+
+def populate_new(year):
+    fertilizer_path = "/home/abhinkop/ssd2/repos/SmartFarmingHackathon/Getreide/Farm1_Jennewein/JenneweinAnwendung"+str(year)+"/doc/"
+    harvest_path = "/home/abhinkop/ssd2/repos/SmartFarmingHackathon/Getreide/Farm1_Jennewein/JenneweinErnte"+str(year)+"/doc/"
+
+    add_fertiliser_plots(fertilizer_path)
+    add_harvest_plots(harvest_path)
