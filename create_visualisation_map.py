@@ -2,6 +2,8 @@
 import geopandas as gpd
 import plotly.express as px
 
+import find_json_files as  find
+
 def gen_dash_plot(gdf,columnName, title ):
     # Step 2: Convert the GeoDataFrame geometry to latitude and longitude for scatter plots
     gdf["lon"] = gdf.geometry.centroid.x
@@ -36,6 +38,7 @@ def create_visualisation_map(columnName, shapefile_path, title):
         
     gdf = gdf.to_crs("EPSG:4326")  # Convert to WGS84 if not already
     
+    # gdf = find.remove_outliers_from_gdf(gdf,columnName)
 
     fig = gen_dash_plot(gdf,columnName,title)
     

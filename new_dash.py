@@ -15,7 +15,7 @@ app = Dash(__name__)
 if __name__ == "__main__":
     app = Dash(__name__)
 
-    eg.populate()
+    eg.populate_new()
     create_page()
 
     app.run_server(debug=True)
