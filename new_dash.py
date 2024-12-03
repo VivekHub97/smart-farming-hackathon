@@ -16,7 +16,7 @@ dropdown_options = [
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 # Populate the initial map list
-eg.populate_new(21)
+eg.populate_new(24, Farm1 = True)
 
 # Main app layout
 app.layout = html.Div(

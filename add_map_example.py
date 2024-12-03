@@ -1,5 +1,6 @@
 
 import create_visualisation_map as cv
+import geopandas as gpd
 from globals import map_list, add_map
 import find_json_files as find
 def populate():
@@ -27,13 +28,13 @@ def add_fertiliser_plots(fertilizer_path):
 
     json_files = find.find_json_files(fertilizer_path)
 
-    for json_file in json_files:
+    for i, json_file in enumerate(json_files):
         print(find.get_product_name(json_file))
 
         map = cv.create_visualisation_map(
             columnName="AppliedRate",
             shapefile_path= find.generate_shape_filename(json_file),
-            title=find.get_product_name(json_file),
+            title=find.get_product_name(json_file), count=i
         )
 
         add_map(map)
@@ -42,15 +43,31 @@ def add_harvest_plots(harvest_path):
 
     json_files = find.find_json_files(harvest_path)
 
-    for json_file in json_files:
+    for i, json_file in enumerate(json_files):
 
         map = cv.create_visualisation_map(
             columnName="VRYIELDMAS",
             shapefile_path= find.generate_shape_filename(json_file),
-            title=find.get_crop_name(json_file),
+            title=find.get_crop_name(json_file), count=i
         )
 
         add_map(map)
+
+def add_emission_plots(emission_path):
+    shapefile_path = emission_path + "/combined_data.geojson"
+    columns = ["Emissions", "FuelEmissions", "YieldEmissions"]
+    for i, column in enumerate(columns):
+
+        gdf = gpd.read_file(shapefile_path)
+        if column in gdf.columns:
+            print(column)
+            map = cv.create_visualisation_map(
+                columnName=column,
+                shapefile_path= shapefile_path,
+                title=column, count=i
+            )
+
+            add_map(map)
 
 
 def populate_new():
@@ -61,9 +78,17 @@ def populate_new():
     add_harvest_plots(harvest_path)
 
 
-def populate_new(year):
-    fertilizer_path = "/home/abhinkop/ssd2/repos/SmartFarmingHackathon/Getreide/Farm1_Jennewein/JenneweinAnwendung"+str(year)+"/doc/"
-    harvest_path = "/home/abhinkop/ssd2/repos/SmartFarmingHackathon/Getreide/Farm1_Jennewein/JenneweinErnte"+str(year)+"/doc/"
+def populate_new(year, Farm1 = True):
+    if Farm1:
+        fertilizer_path = "data/JenneweinAnwendung"+str(year)+"/doc/"
+        harvest_path = "data/JenneweinErnte"+str(year)+"/doc/"
+        emission_path = "data/JenneweinAnwendung"+str(year)
+    else:
+        print("here")
+        fertilizer_path = "data/Gemmingen"+str(year)+"/doc/"
+        harvest_path = "data/Gemmingen"+str(year)+"/doc/"
+        emission_path = "data/Gemmingen"+str(year)
 
     add_fertiliser_plots(fertilizer_path)
     add_harvest_plots(harvest_path)
+    add_emission_plots(emission_path)

@@ -2,6 +2,9 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 import os
 
+from dash import Dash, dcc, html
+import dash_bootstrap_components as dbc
+
 import plotly.express as px
 import plotly.graph_objects as go
 from dash import Dash, html, dcc
@@ -110,26 +113,31 @@ def remove_outliers_from_gdf(gdf, column, method="zscore", threshold=0.4):
 
 
 def my_dash():
-    app = Dash(__name__)
+    # Use a Bootstrap theme
+    app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-    
-
+    # Paths to shapefiles
     fertilizer_path = "/home/abhinkop/ssd2/repos/SmartFarmingHackathon/Getreide/Farm1_Jennewein/Jennewein Anwendung24/doc/"
     harvest_path = "/home/abhinkop/ssd2/repos/SmartFarmingHackathon/Getreide/Farm1_Jennewein/Jennewein Ernte24/doc/"
 
-    a = create_scatterplot("AppliedRate","AppliedRate",fertilizer_path + "Klostermühle_EJ_EJ 0080-0 Un_Application_2024-03-06_00.shp")
-    b = create_scatterplot("VRYIELDMAS","VRYIELDMAS",harvest_path + "Klostermühle_EJ_EJ 0080-0 Un_Harvest_2024-07-20_00.shp")
+    # Generate scatter plots
+    a = create_scatterplot("AppliedRate", "AppliedRate", "/home/vippin/dfki/smart-farming-hackathon/data/Erntejahr 2024 (Weizen, komplett)/Dritte Gabe KAS 14_05_2024/doc/Kaichgauer G_Kraichgauer _Hühnerberg_Application_2024-05-14_00.shp")
+    b = create_scatterplot("VRYIELDMAS", "VRYIELDMAS", "/home/vippin/dfki/smart-farming-hackathon/data/Erntejahr 2024 (Weizen, komplett)/Ernte Weizen 25_07_2024/doc/Kaichgauer G_Kraichgauer _Hühnerberg_Harvest_2024-07-25_00.shp")
 
+    # Define layout
+    app.layout = dbc.Container([
+        # Title
+        dbc.Row([
+            dbc.Col(html.H1("Fertilizer and Harvest Maps", className="text-center mt-4 mb-4"), width=12)
+        ]),
+        # Scatter plots
+        dbc.Row([
+            dbc.Col(dcc.Graph(figure=a), width=12, lg=6, className="mb-4"),  # Responsive: Full width on small screens
+            dbc.Col(dcc.Graph(figure=b), width=12, lg=6, className="mb-4")   # Half width on larger screens
+        ]),
+    ], fluid=True)  # Fluid container for full-width responsiveness
 
-    app.layout = html.Div([
-    html.H1("Fertilizer and Harvest Maps", style={'text-align': 'center'}),
-    # Row for the two maps
-    html.Div([
-        html.Div([dcc.Graph(figure=a)], style={'width': '48%', 'display': 'inline-block'}),
-        html.Div([dcc.Graph(figure=b)], style={'width': '48%', 'display': 'inline-block'}),
-    ])
-])
-    
+    # Run the app
     app.run_server(debug=True)
 
 
