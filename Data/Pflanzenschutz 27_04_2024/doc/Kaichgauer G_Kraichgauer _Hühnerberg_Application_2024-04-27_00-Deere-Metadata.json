@@ -1,0 +1,203 @@
+{
+  "Version": "1.0",
+  "OrgId": 22718,
+  "ClientId": "3c46c900-e252-459c-ac7b-327ebae929bc",
+  "ClientName": "Kaichgauer Güterverw",
+  "FarmId": "53cc4522-8b01-405a-bb8a-56796df40ff0",
+  "FarmName": "Kraichgauer Güterver",
+  "FieldId": "b3476590-c280-48bf-bea6-7f04dd7f539e",
+  "FieldName": "Hühnerberg",
+  "FieldOperationId": "231a58a6-31eb-4076-8c49-b971935a5b1f",
+  "Operation": "Application",
+  "CropSeason": 2024,
+  "CropToken": "",
+  "CropName": "",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductId": "65690eda-545e-4979-a87b-2be35df86ba4",
+    "ProductName": "Elatus Era + Countdown+U46M",
+    "TankMix": true,
+    "Rate": {
+      "Value": 196.0,
+      "Unit": "l1ha-1"
+    },
+    "ProductUseHash": "de7d9d1523c3a84799e34d3d5a57e82a",
+    "Components": [
+      {
+        "Carrier": false,
+        "Name": "U46M",
+        "Rate": {
+          "Value": 1.399999976158142,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": false,
+        "Name": "Elatus Era~1",
+        "Rate": {
+          "Value": 1.0,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": false,
+        "Name": "Countdown~2",
+        "Rate": {
+          "Value": 300.0,
+          "Unit": "ml1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": true,
+        "Name": "Wasser",
+        "Rate": {
+          "Value": 193.3000030517578,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      }
+    ]
+  },
+  "FieldOperationStartDate": "2024-04-27T12:29:09.164Z",
+  "FileCreatedTimeStamp": "2024-11-27T19:45:57.0179878Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "Product",
+      "Description": "Product Name"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "l1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "l1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "l1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    },
+    {
+      "Name": "PRODUCTHASH",
+      "Description": "ProductUseHash"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "69750a18-e479-fbe3-e897-528b941a5b52",
+      "MachineSerial": "",
+      "OperatorId": "677484cf-d599-4ac6-9500-52d7428c36ac",
+      "OperatorName": "Daniel Wirth"
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "6ef8fe3e-7467-9760-7fc5-549061d84b92",
+      "ImplementSerialNumber": "230000308767"
+    }
+  ],
+  "Products": [
+    {
+      "ProductId": "65690eda-545e-4979-a87b-2be35df86ba4",
+      "ProductName": "Elatus Era + Countdown+U46M",
+      "TankMix": true,
+      "Rate": {
+        "Value": 196.0,
+        "Unit": "l1ha-1"
+      },
+      "ProductUseHash": "de7d9d1523c3a84799e34d3d5a57e82a",
+      "Components": [
+        {
+          "Carrier": false,
+          "Name": "U46M",
+          "Rate": {
+            "Value": 1.399999976158142,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Elatus Era~1",
+          "Rate": {
+            "Value": 1.0,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Countdown~2",
+          "Rate": {
+            "Value": 300.0,
+            "Unit": "ml1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": true,
+          "Name": "Wasser",
+          "Rate": {
+            "Value": 193.3000030517578,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        }
+      ]
+    }
+  ]
+}

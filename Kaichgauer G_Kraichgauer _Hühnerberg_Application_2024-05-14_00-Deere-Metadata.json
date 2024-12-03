@@ -1,0 +1,113 @@
+{
+  "Version": "1.0",
+  "OrgId": 22718,
+  "ClientId": "3c46c900-e252-459c-ac7b-327ebae929bc",
+  "ClientName": "Kaichgauer Güterverw",
+  "FarmId": "53cc4522-8b01-405a-bb8a-56796df40ff0",
+  "FarmName": "Kraichgauer Güterver",
+  "FieldId": "b3476590-c280-48bf-bea6-7f04dd7f539e",
+  "FieldName": "Hühnerberg",
+  "FieldOperationId": "d85b924f-c698-47e8-b7ea-3c90f40addbd",
+  "Operation": "Application",
+  "CropSeason": 2024,
+  "CropToken": "",
+  "CropName": "",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductName": "Kalkamonsalpeter 27",
+    "BrandName": "---",
+    "TankMix": false
+  },
+  "FieldOperationStartDate": "2024-05-14T14:20:19.874Z",
+  "FileCreatedTimeStamp": "2024-11-27T19:48:14.8196404Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "Product",
+      "Description": "Product Name"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "kg1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "kg1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "kg1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "323f7e2e-4c27-2fc2-0543-f3fe4dccfc0d",
+      "MachineSerial": "1RW7330SJPD132369",
+      "OperatorId": "f346c665-9347-4f03-a04d-4faffb5795ba",
+      "OperatorName": "Jonas Pfeil"
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "f2469979-080b-ec5d-4eee-9439ba687bfa",
+      "ImplementSerialNumber": "RLGA3Z08TZ1B10321"
+    }
+  ],
+  "Products": [
+    {
+      "ProductName": "Kalkamonsalpeter 27",
+      "BrandName": "---",
+      "TankMix": false
+    }
+  ]
+}
